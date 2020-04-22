@@ -32,3 +32,41 @@
 .about p {
     text-align: center;
 }
+
+/* Projects Section */
+
+#projects {
+    background-color: #eeeeee;
+}
+
+.projects {
+    text-align: center;
+    margin: 2%;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    letter-spacing: 3px;
+}
+
+.projectImage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.overlay-text{
+    position: absolute;
+    left: 0;
+    /* top: 0; */
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    /* height: max-content; */
+    text-decoration: underline;
+    color: #222831;
+ }
+
+ .projectsContainer {
+     margin-left: auto;
+     margin-right: auto;
+ }
