@@ -30,33 +30,49 @@
 <body>
 
     <section class="row">
-        <div class="intro col-md-12 col-sm-12 col-lg-12 introDiv">
-                <h1>I am <span class="name">Karthik</span>.</h1>
-                <p>I'm a full-stack webdeveloper.</p>
-                <a href="#navbar"><button type="button" class="btn btn-light intobtn">View my Work <i class="fa fa-arrow-down"
-                    aria-hidden="true"></i></button></a>
+        <div class="intro col-md-12 col-sm-12 col-lg-12">
+            <h1 class="mainHeading">I am <span class="name">Karthik</span>.</h1>
+            <p>I'm a full-stack webdeveloper.</p>
+            <a href="#navbar"><button type="button" class="btn btn-light intobtn">View my work <i
+                        class="fa fa-arrow-down" aria-hidden="true"></i></button></a>
         </div>
     </section>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-     
-            <div class="collapse navbar-collapse" id="navbarToggler">
-              <ul class="navbar-nav mt-2 ml-auto mr-auto">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav mt-2 ml-auto mr-auto">
                 <li class="nav-item mr-5">
-                  <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item mr-5">
-                  <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#">Projects</a>
                 </li>
                 <li class="nav-item mr-5">
-                  <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
-              </ul>
-            </div>
-          </nav>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="row" id="about">
+        <div class="about col-md-12 col-sm-12 col-lg-12">
+            <h1 class="aboutHeading">ABOUT</h1>
+            <p>
+                I am a Full Stack Web Developer educated at Adelaide University Coding Bootcamp. I have experience in developing responsive websites using MERN stack.
+            </p>
+            <p>
+                I am skilled in HTML, CSS, JavaScript, React, Bootstrap. In the backend I am skilled in Nodejs, Express Framework and MongoDB.
+            </p>
+            <p>
+                Experienced in Test Driven Development and worked in Agile teams.
+            </p>
+        </div>
+    </section>
 
     <!-- JQuery for Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
